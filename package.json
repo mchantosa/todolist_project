@@ -1,0 +1,31 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.1.0"
+  },
+  "scripts": {
+    "babel": "npx babel lib --out-dir dist --presets=@babel/preset-env",
+    "lint": "eslint ./lib/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchantosa/todolist_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchantosa/todolist_project/issues"
+  },
+  "homepage": "https://github.com/mchantosa/todolist_project#readme"
+}
